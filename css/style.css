@@ -141,6 +141,7 @@ ul.nav li {
     cursor: pointer;
 }
 
+main {overflow: hidden;}
 /* profile */
 section#profile {
     width: 100%;
