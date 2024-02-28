@@ -3,20 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title> 장안선 - 포트폴리오 </title>
     <link rel="shoutcut icon" href="./images/fv.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- 제이쿼리의 animate의 제약사항을 해결해주는 TweenMax - 애니메이션 라이브러리 -->
+    <script src="./js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-    <script src="./js/main.js"></script>
+
 </head>
 
 <body>
@@ -58,7 +60,6 @@
                             <span>
                                 &amp; WEB DEVELOPER
                             </span>
-
                         </dt>
                         <dd>
                             안녕하세요?
@@ -423,7 +424,84 @@
             </div>
         </footer>
         <!-- popup box slide -->
+        <!-- #popup>.popup_main>.bg>p.close -->
+        <div id="popup">
+            <div class="popup_main">
+                <div class="bg">
+                    <p class="close">
+                        팝업창을 닫으시려면 아무 곳이나 클릭하세요.
+                    </p>
+                </div>
+                <!-- popup1 -->
+                <!-- .popup1.popup>button.prev -->
+                <!-- 1 -->
+                <div class="popup1 popup">
+                    <!-- 이전,다음 화살표 -->
+                    <button class="prev"><i class="fa-light fa-angle-left"></i></button>
+                    <button class="next"><i class="fa-light fa-angle-right"></i></button>
+                    <!-- 팝업 슬라이드 이미지 -->
+                    <!-- ul.popList>li.popImg*3>img -->
+                    <ul class="popList">
+                        <li class="popImg"><img src="./images/popup/1-1.png" alt="1-1"></li>
+                        <li class="popImg"><img src="./images/popup/1-2.png" alt="1-2"></li>
+                        <li class="popImg"><img src="./images/popup/1-3.png" alt="1-3"></li>
+                    </ul>
+                </div>
 
+                <!-- 2 -->
+                <div class="popup2 popup">
+                    <!-- 이전,다음 화살표 -->
+                    <button class="prev"><i class="fa-light fa-angle-left"></i></button>
+                    <button class="next"><i class="fa-light fa-angle-right"></i></button>
+                    <!-- 팝업 슬라이드 이미지 -->
+                    <!-- ul.popList>li.popImg*3>img -->
+                    <ul class="popList">
+                        <li class="popImg"><img src="./images/popup/2-1.png" alt="2-1"></li>
+                        <li class="popImg"><img src="./images/popup/2-2.png" alt="2-2"></li>
+                        <li class="popImg"><img src="./images/popup/2-3.png" alt="2-3"></li>
+                    </ul>
+                </div>
+                <!-- 3 -->
+                <div class="popup3 popup">
+                    <!-- 이전,다음 화살표 -->
+                    <button class="prev"><i class="fa-light fa-angle-left"></i></button>
+                    <button class="next"><i class="fa-light fa-angle-right"></i></button>
+                    <!-- 팝업 슬라이드 이미지 -->
+                    <!-- ul.popList>li.popImg*3>img -->
+                    <ul class="popList">
+                        <li class="popImg"><img src="./images/popup/3-1.png" alt="2-1"></li>
+                        <li class="popImg"><img src="./images/popup/3-2.png" alt="2-2"></li>
+                        <li class="popImg"><img src="./images/popup/3-3.png" alt="2-3"></li>
+                    </ul>
+                </div>
+                <!-- 4 -->
+                <div class="popup4 popup">
+                    <!-- 이전,다음 화살표 -->
+                    <button class="prev"><i class="fa-light fa-angle-left"></i></button>
+                    <button class="next"><i class="fa-light fa-angle-right"></i></button>
+                    <!-- 팝업 슬라이드 이미지 -->
+                    <!-- ul.popList>li.popImg*3>img -->
+                    <ul class="popList">
+                        <li class="popImg"><img src="./images/popup/4-1.png" alt="2-1"></li>
+                        <li class="popImg"><img src="./images/popup/4-2.png" alt="2-2"></li>
+                        <li class="popImg"><img src="./images/popup/4-3.png" alt="2-3"></li>
+                    </ul>
+                </div>
+                <!-- 5 -->
+                <div class="popup5 popup">
+                    <!-- 이전,다음 화살표 -->
+                    <button class="prev"><i class="fa-light fa-angle-left"></i></button>
+                    <button class="next"><i class="fa-light fa-angle-right"></i></button>
+                    <!-- 팝업 슬라이드 이미지 -->
+                    <!-- ul.popList>li.popImg*3>img -->
+                    <ul class="popList">
+                        <li class="popImg"><img src="./images/popup/5-1.png" alt="2-1"></li>
+                        <li class="popImg"><img src="./images/popup/5-2.png" alt="2-2"></li>
+                        <li class="popImg"><img src="./images/popup/5-3.png" alt="2-3"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
